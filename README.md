@@ -1,4 +1,4 @@
-# Install in just in one command
+# Install  just in one command
 
 ### currently Available for Debian Based distro
 
