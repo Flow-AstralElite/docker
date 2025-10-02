@@ -58,13 +58,3 @@ echo "Docker version:"
 docker --version
 echo "Docker Compose version:"
 docker-compose --version
-
-echo ""
-echo "🎉 Installation completed successfully!"
-echo "=================================================="
-echo "⚠️  IMPORTANT: You need to log out and log back in"
-echo "   (or restart your system) for the group changes"
-echo "   to take effect and use Docker without sudo."
-echo ""
-echo "🔧 To test Docker, run: docker run hello-world"
-echo "🔧 To test Docker Compose, run: docker-compose --version"
