@@ -37,6 +37,7 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io
 # Add current user to docker group
 echo "👤 Adding current user to docker group..."
 sudo usermod -aG docker $USER
+newgrp docker
 
 # Install Docker Compose
 echo "🔧 Installing Docker Compose..."
